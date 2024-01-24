@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-weight: 350;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+.one{
+    background-image: url(developer.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    color: rgb(103, 138, 138);
+    margin: 0;
+    max-width: 900px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+#text_2{
+    padding-left: 250px;
+}
+.two{
+    background-color: black;
+    padding: 20px;
+}
+.two h2{
+    font-weight: 400;
+    font-size: 90px;
+    color: rgb(85, 106, 124);
+}
+.two h2 span{
+    font-weight: 500;
+}
+.three{
+    display: grid;
+    gap: 25px;
+    margin: 8px 4px ;
+    max-width: 1100px;
+    margin: 50px auto;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+
+}
+.card{
+    max-width: 320px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.1s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px goldenrod;
+    transition: 0.1s ease-in-out;
+}
+    
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    padding: 20px;
+}
+.info h2{
+    margin-bottom: 10px;
+}
+.four{
+    display: flex;
+}
+.contact{
+    background-color: #722300;
+}
+.about{
+    background-color: #515603;
+}
+.contact, .about
+{
+    min-height: 150px;
+    width: 100%;
+    padding: 20px;
+    color: rgb(142, 158, 172);
+}
+.about h2
+.contact h2{
+    font-size: 64px;
+    font-weight: 300;
+}
+.about p,
+.contact p{
+    margin-bottom: 25px;
+}
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(97, 108, 117);
+    background-color: #000;
+    padding: 20px;
+}
+
+
+
